@@ -27,25 +27,25 @@ export const MainLayout = () => {
           </div>
         </nav>
         <div className="main-content columns is-fullheight">
-          <aside class="menu column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
-            <p class="menu-label">
+          <aside className="menu column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
+            <p className="menu-label">
               General
             </p>
-            <ul class="menu-list">
+            <ul className="menu-list">
               <li><Link to="/">Inicio</Link></li>
               <li><Link to="/customers">Clientes</Link></li>
             </ul>
-            <p class="menu-label">
+            <p className="menu-label">
               Administración
             </p>
-            <ul class="menu-list">
+            <ul className="menu-list">
               <li><Link to="/products">Productos</Link></li>
               <li><Link to="/providers">Provedores</Link></li>
             </ul>
-            <p class="menu-label">
+            <p className="menu-label">
               Transacciones
             </p>
-            <ul class="menu-list">
+            <ul className="menu-list">
               <li><Link to="/transactions/payments">Pagos</Link></li>
               <li><Link to="/transactions/transfers">Transferencias</Link></li>
               <li><Link to="/transactions/balance">Balance</Link></li>
